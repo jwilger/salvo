@@ -1,0 +1,7 @@
+services:
+  umadb:
+    image: umadb/umadb:latest
+    ports:
+      - "50051:50051"
+    volumes:
+      - ./.umadb:/data
