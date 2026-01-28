@@ -93,3 +93,8 @@ mutants.out.old/
 
 .serena/
 .beads/
+
+
+# Added by cargo
+
+/target
